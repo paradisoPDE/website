@@ -73,4 +73,4 @@ Email addresses (`hello@`, `booking@`, `press@`, `store@paradiso-pde.example`) a
 
 ## Design
 
-Layout and tone are inspired by [frenchforrabbits.com](https://www.frenchforrabbits.com/): warm off-white background, generous whitespace, serif headings on a sans-serif body, full-width imagery, and `* * *` dividers between sections. The accent colour (used on the `PDE` mark and on hover states) is a muted terracotta. All styling is in `style.css` — change the CSS custom properties at the top of that file to retheme the whole site in seconds.
+Layout and tone: warm off-white background, generous whitespace, serif headings on a sans-serif body, full-width imagery, and `* * *` dividers between sections. The accent colour (used on the `PDE` mark and on hover states) is a muted terracotta. All styling is in `style.css` — change the CSS custom properties at the top of that file to retheme the whole site in seconds.
