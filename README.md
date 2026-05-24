@@ -42,14 +42,15 @@ To use a custom domain (e.g. `paradiso-pde.com`), add a `CNAME` file containing 
 ## Replacing placeholders with real content
 
 The site uses CSS gradient blocks (`<div class="ph">…</div>`) wherever a real photo or video would go. To swap in real media:
+Drop images into the `photos/` subfolder and reference them with relative paths (example below).
 
-**Images** — replace:
+**Images** — then replace:
 ```html
 <div class="ph">Band portrait · placeholder</div>
 ```
 with:
 ```html
-<img src="images/band-portrait.jpg" alt="paradiso PDE" />
+<img src="photos/band-portrait.jpg" alt="paradiso PDE" />
 ```
 
 **Videos** — replace a `<div class="ph wide">` inside an `.embed.embed-video` wrapper with a YouTube/Vimeo iframe:
@@ -57,8 +58,6 @@ with:
 <iframe src="https://www.youtube.com/embed/VIDEO_ID"
         allowfullscreen frameborder="0"></iframe>
 ```
-
-Drop images into an `images/` subfolder and reference them with relative paths.
 
 ## Editing copy
 
