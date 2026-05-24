@@ -7,15 +7,15 @@ Static HTML site for the indie band **paradiso PDE**. No frameworks, no build st
 | File | Purpose |
 | --- | --- |
 | `index.html` | Redirects to the home page (so GitHub Pages serves it at the root URL) |
-| `paradiso-PDE-home.html` | Landing page with Spotify embed |
-| `paradiso-PDE-bio.html` | Band story + members |
-| `paradiso-PDE-shows.html` | Upcoming + past gigs |
-| `paradiso-PDE-music.html` | Spotify embed + release list |
-| `paradiso-PDE-video.html` | Music videos and live takes |
-| `paradiso-PDE-merch.html` | Vinyl, tees, prints |
-| `paradiso-PDE-press.html` | Quotes, press shots, press kit |
-| `paradiso-PDE-blog.html` | News + newsletter signup |
-| `paradiso-PDE-contact.html` | Email + contact form |
+| `home.html` | Landing page with Spotify embed |
+| `bio.html` | Band story + members |
+| `shows.html` | Upcoming + past gigs |
+| `music.html` | Spotify embed + release list |
+| `video.html` | Music videos and live takes |
+| `merch.html` | Vinyl, tees, prints |
+| `press.html` | Quotes, press shots, press kit |
+| `blog.html` | News + newsletter signup |
+| `contact.html` | Email + contact form |
 | `style.css` | Shared styles |
 
 ## Run locally
@@ -31,13 +31,13 @@ Just double-click `index.html` — it opens in your default browser. No server n
    git add .
    git commit -m "Initial site"
    git branch -M main
-   git remote add origin https://github.com/<your-username>/paradiso-pde-site.git
+   git remote add origin https://github.com/<your-username>/website.git
    git push -u origin main
    ```
 3. On GitHub: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main` / `(root)` → Save**.
-4. Wait ~1 minute. Your site is live at `https://<your-username>.github.io/paradiso-pde-site/`.
+4. Wait ~1 minute. Your site is live at `https://paradisopde.github.io/website/`.
 
-To use a custom domain (e.g. `paradisopde.com`), add a `CNAME` file containing only your domain name, and configure DNS per [GitHub's docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
+To use a custom domain (e.g. `paradiso-pde.com`), add a `CNAME` file containing only your domain name, and configure DNS per [GitHub's docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
 
 ## Replacing placeholders with real content
 
