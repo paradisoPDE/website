@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — paradiso PDE</title>
+  <meta name="description" content="Get in touch with paradiso PDE — booking, press, general." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand"><a href="paradiso-PDE-home.html">paradiso <span class="pde">PDE</span></a></div>
+  <div class="tagline">indie · dream-pop · live</div>
+  <nav class="site-nav">
+    <a href="paradiso-PDE-home.html">Home</a>
+    <a href="paradiso-PDE-bio.html">Bio</a>
+    <a href="paradiso-PDE-shows.html">Shows</a>
+    <a href="paradiso-PDE-music.html">Music</a>
+    <a href="paradiso-PDE-video.html">Video</a>
+    <a href="paradiso-PDE-merch.html">Merch</a>
+    <a href="paradiso-PDE-press.html">Press</a>
+    <a href="paradiso-PDE-blog.html">Blog</a>
+    <a href="paradiso-PDE-contact.html" class="active">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <section>
+    <div class="wrap-narrow">
+      <div class="eyebrow">Contact</div>
+      <h1>Say hello.</h1>
+      <p class="lead">For booking, press, collaborations, or just to say a song landed — drop us a line.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:20px">
+    <div class="wrap">
+      <div class="grid-2">
+
+        <div>
+          <h2>Get in touch directly</h2>
+          <p style="margin-bottom:18px"><strong>General</strong><br />
+            <a href="mailto:hello@paradiso-pde.example">hello@paradiso-pde.example</a>
+          </p>
+          <p style="margin-bottom:18px"><strong>Booking</strong><br />
+            <a href="mailto:booking@paradiso-pde.example">booking@paradiso-pde.example</a>
+          </p>
+          <p style="margin-bottom:18px"><strong>Press</strong><br />
+            <a href="mailto:press@paradiso-pde.example">press@paradiso-pde.example</a>
+          </p>
+          <p style="margin-bottom:18px"><strong>Merch</strong><br />
+            <a href="mailto:store@paradiso-pde.example">store@paradiso-pde.example</a>
+          </p>
+
+          <div class="divider" style="margin:30px 0; text-align:left">* * *</div>
+
+          <h3>Follow</h3>
+          <p>
+            <a href="https://www.instagram.com/paradiso_parade/" target="_blank" rel="noopener">Instagram — @paradiso_parade</a><br />
+            <a href="https://open.spotify.com/artist/08rzidI7HeLZCssOCMhvsW" target="_blank" rel="noopener">Spotify — paradiso PDE</a>
+          </p>
+        </div>
+
+        <div>
+          <h2>Or use the form</h2>
+          <form class="contact" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Sent ✓';">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" type="text" required />
+            </div>
+            <div>
+              <label for="cemail">Email</label>
+              <input id="cemail" type="email" required />
+            </div>
+            <div>
+              <label for="subject">Subject</label>
+              <input id="subject" type="text" />
+            </div>
+            <div>
+              <label for="msg">Message</label>
+              <textarea id="msg" required></textarea>
+            </div>
+            <button class="btn solid" type="submit">Send message</button>
+          </form>
+          <p style="color:var(--ink-muted); font-size:13px; margin-top:14px">This form is illustrative — wire it to Formspree, Netlify Forms, or similar before going live.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="socials">
+    <a href="https://open.spotify.com/artist/08rzidI7HeLZCssOCMhvsW" target="_blank" rel="noopener">Spotify</a>
+    <a href="https://www.instagram.com/paradiso_parade/" target="_blank" rel="noopener">Instagram</a>
+    <a href="paradiso-PDE-contact.html">Contact</a>
+  </div>
+  <div>paradiso PDE</div>
+  <div class="copy">© 2026 — all songs, all rights</div>
+</footer>
+
+</body>
+</html>
